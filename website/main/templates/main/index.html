@@ -1,0 +1,53 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+<title>Главная страница</title>
+{% endblock %}
+
+{% block home %}
+<a href="/" class="nav-link text-secondary">
+    Главная
+</a>
+{% endblock %}
+
+{% block products %}
+<a href="/products" class="nav-link text-white">
+    Каталог
+</a>
+{% endblock %}
+
+{% block about-us %}
+<a href="/about-us" class="nav-link text-white">
+    О нас
+</a>
+{% endblock %}
+
+{% block content %}
+    <div class="p-5 mb-4 bg-white rounded-3">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h1 class="display-7 fw-bold" style="padding-bottom:10px;padding-left:20px">SPICHKA</h1>
+            </div>
+        <div class="col-md-8">
+                <p class="col-md-8 fs-4" style="padding-left:20px">Добро пожаловать на официальный сайт бренда.</p>
+                <p class="col-md-8 fs-4" style="padding-left:20px">Здесь ты можешь ознакомиться со всей линейкой нашей одежды во вкладке каталог.</p>
+                <p class="col-md-8 fs-4" style="padding-left:20px">Сейчас сделать заказ возможно двумя способами:</p>
+        </div>
+    </div>
+    </div>
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-white bg-dark rounded-3">
+          <h2>ВК</h2>
+            <p>Оформление заказа в чате</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <h2>Instagram</h2>
+          <p>Оформление заказа в direct</p>
+        </div>
+      </div>
+    </div>
+{% endblock %}
+

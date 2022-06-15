@@ -1,0 +1,75 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+<title>Каталог</title>
+{% endblock %}
+
+{% block home %}
+<a href="/" class="nav-link text-white">
+     Главная
+</a>
+{% endblock %}
+
+{% block products %}
+<a href="/products" class="nav-link text-secondary">
+    Каталог
+</a>
+{% endblock %}
+
+{% block about-us %}
+<a href="/about-us" class="nav-link text-white">
+   О нас
+</a>
+{% endblock %}
+
+{% block content %}
+    <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="myimage" src="https://sun9-26.userapi.com/impg/3rbB46g4OHOGget3Dr-wQJxQRVDZmxAVboJk3g/QeaWZ8dmIdc.jpg?size=828x907&quality=96&sign=7cdb7de6d5ace4b0e60b2409543402ae&type=album">
+            <div class="card-body">
+              <h4  style="color:Black" class="card-text">Футболка SPICHKA белая</h4>
+              <h6 class="text-muted" style="padding-top:10px">Стоимость: 1500 рублей</h6>
+              <a href="/white_tshirt" class="shine-button">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="myimage" src="https://sun9-26.userapi.com/impg/3rbB46g4OHOGget3Dr-wQJxQRVDZmxAVboJk3g/QeaWZ8dmIdc.jpg?size=828x907&quality=96&sign=7cdb7de6d5ace4b0e60b2409543402ae&type=album">
+            <div class="card-body">
+              <h4  style="color:Black" class="card-text">Футболка SPICHKA черная</h4>
+              <h6 class="text-muted" style="padding-top:10px">Стоимость: 1500 рублей</h6>
+              <a href="/black_tshirt" class="shine-button">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+              <img src="https://sun9-26.userapi.com/impg/3rbB46g4OHOGget3Dr-wQJxQRVDZmxAVboJk3g/QeaWZ8dmIdc.jpg?size=828x907&quality=96&sign=7cdb7de6d5ace4b0e60b2409543402ae&type=album">
+            <div class="card-body">
+              <h4  style="color:Black" class="card-text">Худи SPICHKA белое</h4>
+              <h6 class="text-muted" style="padding-top:10px">Стоимость: 3000 рублей</h6>
+              <a href="/white_hoodie" class="shine-button">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+              <img src="https://sun9-26.userapi.com/impg/3rbB46g4OHOGget3Dr-wQJxQRVDZmxAVboJk3g/QeaWZ8dmIdc.jpg?size=828x907&quality=96&sign=7cdb7de6d5ace4b0e60b2409543402ae&type=album">
+
+            <div class="card-body">
+              <h4  style="color:Black" class="card-text">Худи SPICHKA черное</h4>
+              <h6 class="text-muted" style="padding-top:10px">Стоимость: 3000 рублей</h6>
+              <a href="/black_hoodie" class="shine-button">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+{% endblock %}
+

@@ -1,0 +1,74 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+<title>О нас</title>
+{% endblock %}
+
+{% block home %}
+<a href="/" class="nav-link text-white">
+     Главная
+</a>
+{% endblock %}
+
+{% block products %}
+<a href="/products" class="nav-link text-white">
+    Каталог
+</a>
+{% endblock %}
+
+{% block about-us %}
+<a href="/about-us" class="nav-link text-secondary">
+    О нас
+</a>
+{% endblock %}
+
+{% block content %}
+    <hr style="color:White" class="featurette-divider">
+    <div class="row featurette">
+      <div class="p-5 mb-4 bg-white rounded-3">
+        <div class="row featurette">
+        <div class="col-md-8">
+                <h1 class="display-7 fw-bold" style="padding-left:20px">Кто мы такие</h1>
+                <p class="col-md-8 fs-4" style="padding-left:20px">Наш бренд......</p>
+                <p class="col-md-8 fs-4" style="padding-left:20px">Текст..........</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    <hr style="color:White" class="featurette-divider">
+    <div class="my-3 p-3 bg-body rounded shadow-sm">
+        <h6 class="border-bottom pb-2 mb-0">Контакты</h6>
+        <div class="d-flex text-muted pt-3">
+          <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+            <div class="d-flex justify-content-between">
+              <a class="text-gray-dark" href="https://vk.com/animemobil">Instagram</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex text-muted pt-3">
+          <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+            <div class="d-flex justify-content-between">
+              <a href="https://vk.com/animemobil" class="text-gray-dark">VK</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex text-muted pt-3">
+          <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+            <div class="d-flex justify-content-between">
+              <strong class="text-gray-dark">Почта</strong>
+            </div>
+            <span class="d-block">spichka.help@gmail.com</span>
+          </div>
+        </div>
+        <div class="d-flex text-muted pt-3">
+          <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+            <div class="d-flex justify-content-between">
+              <strong class="text-gray-dark">Телефон</strong>
+            </div>
+            <span class="d-block">+79872858202</span>
+            <span class="d-block">+79655867677</span>
+          </div>
+        </div>
+    </div>
+
+{% endblock %}
